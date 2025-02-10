@@ -6,7 +6,7 @@ int a, b;
 while (true)
 {
     string? s = Console.ReadLine();
-    
+
     if (!int.TryParse(s, out a))
     {
         Console.WriteLine("Error: please enter an integer");
